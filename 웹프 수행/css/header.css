@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 헤더 기본 설정 */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(159, 77, 225), rgb(130, 168, 253));
+  height: 120px;
+}
+
+/* 로고 */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 36px;
+  height: 85%;
+}
+
+#Logo {
+  float: left;
+  margin-left: 20px;
+  height: 100%;
+}
+
+/* 페이지 이동 버튼 */
+
+ul {
+  list-style: none;
+}
+
+.Link > li {
+  margin: 31px 55px 0px 55px;
+  float: left;
+  font-size: 40px;
+  color: white;
+}
+
+.Check {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+
+.Check:hover {
+  cursor: pointer;
+}
+
+.Check:active {
+  color: #eee;
+}
+
+/* 회원가입, 로그인 버튼 */
+
+.button > li {
+  margin-top: 25px;
+  float: left;
+}
+
+#SignUp {
+  margin-left: 800px;
+  width: 160px;
+  height: 80px;
+  background-color: white;
+  color: rgba(113, 111, 255, 1);
+  border: 2px solid rgba(113, 111, 255, 1);
+  border-radius: 25px;
+  font-size: 33px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#SignUp:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#SignUp:active {
+  background-color: rgba(209, 209, 209, 0.75);
+}
+
+#LogIn {
+  margin-left: 27px;
+  width: 160px;
+  height: 80px;
+  color: white;
+  background-color: rgba(113, 111, 255, 1);
+  border: 2px solid rgba(113, 111, 255, 1);
+  border-radius: 25px;
+  font-size: 33px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#LogIn:hover {
+  background-color: rgba(113, 111, 255, 0.75);
+  border-color: rgba(113, 111, 255, 0.75);
+}
+
+#LogIn:active {
+  background-color: rgb(143, 141, 248);
+  border: 2px solid rgb(143, 141, 248);
+}

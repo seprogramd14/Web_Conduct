@@ -1,0 +1,154 @@
+/* 로그인 중에 기본 설정*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../image/로그인배경.png);
+  background-repeat: no-repeat;
+}
+
+.LoginImg {
+  width: 591px;
+  height: 700px;
+}
+
+/* 로그인 박스*/
+.LoginBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+form {
+  width: 419px;
+}
+
+/* 로그인 박스 중 왼쪽에 해당하는 부분*/
+
+.BoxInLeft {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 419px;
+  height: 700px;
+  outline: none;
+  border: none;
+}
+
+.Title {
+  margin: 52px 0 0 72px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+input {
+  width: 300px;
+  font-size: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solic #c0c0c0;
+  margin: 0 0 70px 70px;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.Btn {
+  width: 300px;
+  height: 52px;
+  border: 0;
+  border-radius: 7px;
+  margin-top: 78px;
+  background-color: #3834f3;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+}
+
+.Btn:hover {
+  cursor: pointer;
+}
+
+.Btn:active {
+  background-color: #5754f5;
+}
+
+.Find {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0 0 72px;
+  color: #c0c0c0;
+}
+
+#FindId {
+  margin-right: 27px;
+}
+
+.solid {
+  border-left: 2px solid #c0c0c0;
+}
+
+#FindPw {
+  margin-left: 27px;
+}
+
+#FindId,
+#FindPw:hover {
+  cursor: pointer;
+}
+
+/* 왼쪽과 오른쪽을 나눠주는 가운데 선*/
+.centerline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.centerlinetop {
+  border-left: 2px solid #c0c0c0;
+  height: 220px;
+  margin-left: 6px;
+}
+
+.centerlinebottom {
+  border-left: 2px solid #c0c0c0;
+  height: 220px;
+  margin-left: 6px;
+}
+
+/* 로그인 박스 중 오른쪽에 해당하는 부분*/
+.BoxInRight {
+  width: 420px;
+  background-color: white;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.manyImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 206px;
+  left: 40px;
+}
+
+.Bar {
+  width: 300px;
+  height: 55px;
+  margin-bottom: 37px;
+}

@@ -1,0 +1,315 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 헤더 기본 설정 */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(159, 77, 225), rgb(130, 168, 253));
+  height: 120px;
+}
+
+/* 로고 */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 36px;
+  height: 85%;
+}
+
+#Logo {
+  float: left;
+  margin-left: 20px;
+  height: 100%;
+}
+
+/* 페이지 이동 버튼 */
+
+ul {
+  list-style: none;
+}
+
+.Link > li {
+  margin: 31px 55px 0px 55px;
+  float: left;
+  font-size: 40px;
+  color: white;
+}
+
+.Check {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+
+.Check:hover {
+  cursor: pointer;
+}
+
+.Check:active {
+  color: #eee;
+}
+
+#Profile {
+  float: right;
+  margin-right: 30px;
+  height: 100%;
+}
+
+.question {
+  position: absolute;
+  top: 150px;
+  left: 160px;
+}
+
+.search {
+  position: absolute;
+  top: 200px;
+  left: 165px;
+  width: 1500px;
+  height: 43px;
+  border-radius: 10px;
+}
+
+.glas {
+  position: absolute;
+  right: 200px;
+  top: 188px;
+  width: 48px;
+  height: 48px;
+}
+
+.searchtitle {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 250px;
+  left: 200px;
+}
+
+.population {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 700px;
+  top: 250px;
+}
+
+.date {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 250px;
+  right: 420px;
+}
+
+.gray1 {
+  position: absolute;
+  width: 1500px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #d9d9d9;
+  top: 350px;
+  left: 165px;
+}
+
+.gray2 {
+  position: absolute;
+  width: 1500px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #d9d9d9;
+  left: 165px;
+  top: 450px;
+}
+
+.gray3 {
+  position: absolute;
+  width: 1500px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #d9d9d9;
+  left: 165px;
+  top: 550px;
+}
+
+.gray4 {
+  position: absolute;
+  width: 1500px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #d9d9d9;
+  left: 165px;
+  top: 650px;
+}
+.crazytitle1 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 200px;
+  top: 360px;
+}
+
+.crazytitle2 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 200px;
+  top: 460px;
+}
+.crazytitle3 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 200px;
+  top: 560px;
+}
+.crazytitle4 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 200px;
+  top: 660px;
+}
+
+.participate1 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 1130px;
+  top: 360px;
+}
+
+.participate2 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 460px;
+  left: 1130px;
+}
+
+.participate3 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 560px;
+  left: 1130px;
+}
+
+.participate4 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 660px;
+  left: 1130px;
+}
+
+.ondate1 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 380px;
+  top: 360px;
+}
+
+.ondate2 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 380px;
+  top: 460px;
+}
+.ondate3 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 380px;
+  top: 560px;
+}
+.ondate4 {
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  right: 380px;
+  top: 660px;
+}
+/* 
+.tlqkf {
+  font-size: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 900px;
+} */

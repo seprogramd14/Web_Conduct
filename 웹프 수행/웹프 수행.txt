@@ -1,0 +1,104 @@
+header 코드
+
+
+
+html
+
+<header>
+      <div id="Logo">
+        <img src="./image/로고.png" alt="" />
+      </div>
+      <div>
+        <ul class="Link">
+          <li>
+            <div>Home</div>
+          </li>
+          <li>
+            <div>Log Check</div>
+          </li>
+        </ul>
+        <ul class="button">
+          <li>
+            <button id="SignUp">Sign Up</button>
+          </li>
+          <li>
+            <button id="LogIn">Login</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+
+
+css
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 0, 213, 0.7),
+    rgba(0, 87, 255, 0.49)
+  );
+  height: 70px;
+}
+
+img {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.Link > li {
+  margin: 12px 40px 0px 70px;
+  float: left;
+  font-size: 30px;
+  color: white;
+}
+
+.button > li {
+  margin: 7px;
+  float: left;
+}
+
+#Logo {
+  float: left;
+  margin-left: 20px;
+  height: 100%;
+}
+
+#SignUp {
+  margin-left: 650px;
+  width: 120px;
+  height: 54px;
+  background-color: white;
+  color: rgba(113, 111, 255, 1);
+  border: 2px solid rgba(113, 111, 255, 1);
+  border-radius: 15px;
+  font-size: 22px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#SignUp:active {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#LogIn {
+  width: 120px;
+  height: 54px;
+  color: white;
+  background-color: rgba(113, 111, 255, 1);
+  border: 2px solid rgba(113, 111, 255, 1);
+  border-radius: 15px;
+  font-size: 22px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#LogIn:active {
+  background-color: rgba(113, 111, 255, 0.75);
+}

@@ -1,0 +1,154 @@
+/* 회원가입 중에 기본 설정*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(84, 84, 84, 1);
+}
+
+body {
+  background-image: url(../image/로그인배경.png);
+  background-repeat: no-repeat;
+}
+
+.SignupImg {
+  width: 591px;
+  height: 700px;
+}
+
+/* 회원가입 박스*/
+.SignupBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+}
+
+form {
+  width: 419px;
+}
+
+/* 회원가입 박스 중 왼쪽에 해당하는 부분*/
+
+.BoxInLeft {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 419px;
+  height: 700px;
+  outline: none;
+  border:none;
+}
+
+.Title {
+  margin: 52px 0 0 72px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+input {
+  width: 300px;
+  font-size: 20px;
+  border-top:none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solic #C0C0C0;
+  margin:45px 0 0 70px;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.Btn {
+  width: 300px;
+  height: 52px;
+  border: 0;
+  border-radius: 7px;
+  margin:78px 0 20px 70px;
+  background-color: #3834F3;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+}
+
+.Btn:hover {
+  cursor: pointer;
+}
+
+.Btn:active {
+  background-color: #5754F5;
+}
+
+.return {
+  display: flex;
+  margin-left: 70px;
+}
+
+.Login {
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.Login:hover{
+  cursor: pointer;
+}
+
+/* 왼쪽과 오른쪽을 나눠주는 가운데 선*/
+.centerline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.centerlinetop {
+  border-left: 2px solid #C0C0C0;
+  height: 220px;
+  margin-left: 6px; 
+}
+
+.centerlinebottom {
+  border-left: 2px solid #C0C0C0;
+  height: 220px;
+  margin-left: 6px;
+}
+
+/* 회원가입 박스 중 오른쪽에 해당하는 부분*/
+.BoxInRight {
+  width: 420px;
+  background-color: white;
+  outline: none;  
+  border:none;
+  position: relative;
+}
+
+.manyImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 206px;
+  left: 40px; 
+}
+
+.Bar {
+  width:300px;
+  height:55px;
+  margin-bottom: 37px;
+}
+
+.Bar:hover {
+  cursor: pointer;
+}

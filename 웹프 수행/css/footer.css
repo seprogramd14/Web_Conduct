@@ -1,0 +1,11 @@
+.last {
+  background-color: rgb(137, 134, 134);
+  height: 150px;
+}
+
+.last > p {
+  padding: 55px 0px 0px 315px;
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+}
